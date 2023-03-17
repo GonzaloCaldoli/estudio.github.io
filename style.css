@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer {
+    text-align: center;
+}
+
+#countdown {
+    font-size: 6em;
+    margin: 1rem 11rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid #fff;
+    border-radius:50px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    size: 5em;
+}
+.botones{
+    color: #fff;
+    border: 2px solid #ffffff00;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-indent: 1em;
+
+}
+
+body{
+    background-image: url(img/gid2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logoyt{
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cnt{
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    margin: 0;
+
+}
